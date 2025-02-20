@@ -231,12 +231,12 @@ p span {
   border-radius: 4px;
 }
 
-.form__fieldset_checkbox {
+.form__fieldset__checkbox {
   border-style: none;
   border-radius: 2px;
 }
 
-.form__label_checkbox {
+.form__label__checkbox {
   display: flex;
   justify-content: center;
   gap: 12px;
