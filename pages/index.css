@@ -236,7 +236,7 @@ p span {
   border-radius: 2px;
 }
 
-.form__label__checkbox {
+.form__label_checkbox {
   display: flex;
   justify-content: center;
   gap: 12px;
