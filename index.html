@@ -120,7 +120,53 @@
             </li>
           </ul>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h3 class="reservation__title">Book a table</h3>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Name *</label>
+              <input
+                required
+                id="name"
+                type="text"
+                class="form__input form__placeholder"
+                placeholder="Name Surname"
+              />
+              <label class="form__label" for="guests">Number of guests *</label>
+              <input
+                required
+                id="guests"
+                type="number"
+                min="1"
+                max="8"
+                class="form__input form__placeholder"
+                placeholder="1-8"
+              />
+              <label for="date">Date & time *</label>
+              <input
+                required
+                id="date"
+                type="datetime-local"
+                class="form__input"
+              />
+              <label for="email" class="from__label">Your email *</label>
+              <input
+                required
+                id="email"
+                type="email"
+                class="form__input form__placeholder"
+                placeholder="email@email.com"
+              />
+            </fieldset>
+            <button type="submit" class="form__button">Book a table</button>
+            <fieldset class="form__fieldset_checkbox">
+              <label class="form__label_checkbox" for="checkbox">
+                <input class="form__checkbox" id="checkbox" type="checkbox" />
+                I Agree with the terms of use
+              </label>
+            </fieldset>
+          </form>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="about" id="about"></section>
       </main>
