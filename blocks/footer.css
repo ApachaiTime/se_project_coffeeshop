@@ -36,6 +36,11 @@
   color: #fff;
 }
 
+.footer__social-link:hover {
+  opacity: 0.3;
+  transition: 0.5s;
+}
+
 .footer__social-link:first-child {
   padding-bottom: 16px;
 }

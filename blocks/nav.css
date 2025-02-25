@@ -31,3 +31,8 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+.nav__link:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
