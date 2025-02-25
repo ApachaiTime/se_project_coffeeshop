@@ -1,0 +1,79 @@
+.about {
+  background-color: #0a2850;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 153px;
+  margin-left: auto;
+  margin-right: 80px;
+  /* might have to adjust this margin-top */
+  margin-top: -81px;
+  max-width: 660px;
+  position: relative;
+}
+
+.about__title {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0 0 0;
+  padding: 100px 0 0 80px;
+  max-width: 251px;
+  color: #fff;
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+
+.about__paragraph {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-family: "Noto Serif";
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about__circle {
+  background-color: #1878dc;
+  border-radius: 50%;
+  width: 426px;
+  height: 426px;
+  z-index: 1;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+}
+
+.about__circle_animation_blurred {
+  background-color: #1878dc;
+  border-radius: 50%;
+  width: 426px;
+  height: 426px;
+  z-index: 1;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  animation: pulsate 1.3s ease-in-out infinite;
+}
