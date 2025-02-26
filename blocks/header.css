@@ -1,61 +1,62 @@
 .header {
-  padding: 30px 80px 40px;
+  z-index: 0;
+  padding: 0;
   position: relative;
   display: flex;
   background-color: #fff;
   background-image: url(../images/background_header.svg);
+  background-position: center;
+  background-repeat: no-repeat;
   height: 800px;
+  margin: 0 0 0 80px;
   background-size: cover;
   flex-direction: column;
 }
 
 .header__title {
-  margin: 183px 80px 0;
+  margin: 183px 0 0;
   max-width: 729px;
-  font-family: "Inter, Ariel, sans-serif";
+  font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
 }
 
-h1 span.header__title-accent {
+.header__title-accent {
   display: block;
-  font-family: "Noto Serif, Times New Roman, serif";
+  font-family: Noto Serif, "Times New Roman", serif;
   font-style: italic;
   color: #3f96f3;
 }
 
 .header__description {
-  margin: 28px 80px 0;
+  display: block;
+  margin: 28px 0 0;
   max-width: 683px;
   position: relative;
-  font-family: "Noto Serif, Times New Roman, serif";
+  font-family: Noto Serif, "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }
 
-p span {
-  display: block;
-}
-
 .header__image {
+  z-index: -1;
   position: absolute;
   margin: 0;
   top: 124px;
   right: 5px;
-  max-width: 568px;
-  max-height: 646px;
+  width: 646px;
+  height: 568px;
 }
 
 .header__footer {
-  padding-left: 80px;
   display: flex;
   justify-content: space-between;
   margin-top: auto;
   align-items: flex-end;
   padding-bottom: 30px;
-  font-family: "Inter, Ariel, sans-serif";
+  font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -63,6 +64,5 @@ p span {
 }
 
 .header__paragraph {
-  margin: 0;
-  padding-right: 80px;
+  margin: 0 80px 0 0;
 }

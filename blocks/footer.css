@@ -1,22 +1,20 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  padding: 0 80px;
 }
 
 .footer__content {
   padding: 60px 0 0 0;
   display: flex;
   justify-content: space-between;
-  margin: auto;
 }
 
 .footer__logo {
-  margin-left: 80px;
   width: 105px;
   height: 39px;
 }
 
 .footer__column {
-  margin-right: 80px;
   text-align: end;
 }
 
@@ -34,11 +32,11 @@
   gap: 10px;
   text-decoration: none;
   color: #fff;
+  transition: 0.5s;
 }
 
 .footer__social-link:hover {
   opacity: 0.3;
-  transition: 0.5s;
 }
 
 .footer__social-link:first-child {
@@ -58,5 +56,5 @@
   line-height: 20px;
   color: #fff;
   margin: 0 0 0 0;
-  padding: 108px 0 60px 80px;
+  padding: 108px 0 60px 0;
 }

@@ -1,9 +1,8 @@
 .form__label {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  display: flex;
 }
 
 .form__fieldset {
@@ -16,29 +15,31 @@
   max-width: 385px;
 }
 
-.form__placeholder {
-  color: #838383;
-  font-family: Inter;
-  font-size: 20px;
-  line-height: 30px;
-}
-
 .form__input {
   color: #000;
-  margin: 8px 0 32px;
   padding: 15px 20px;
   box-sizing: border-box;
   width: 100%;
   display: block;
   border: 1px solid #838383;
   border-radius: 4px;
+  margin: 8px 0 32px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input::placeholder {
+  color: #838383;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .form__checkbox {
   display: flex;
   justify-content: center;
   gap: 12px;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -47,7 +48,7 @@
 }
 
 .form__button {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -58,9 +59,10 @@
   border: none;
   padding: 20px 0;
   background-color: #1878dc;
+  border-radius: 4px;
+  transition: background-color 1s ease;
 }
 
 .form__button:hover {
   background-color: #3f96f3;
-  transition-duration: 1s;
 }
