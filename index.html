@@ -132,7 +132,7 @@
                 />
               </label>
               <label class="form__label" for="guests"
-                >Number of guests
+                >Number of guests*
                 <input
                   required
                   id="guests"
@@ -141,8 +141,7 @@
                   max="8"
                   class="form__input"
                   placeholder="1-8"
-                />*</label
-              >
+              /></label>
               <label for="date"
                 >Date & time *
                 <input
@@ -163,7 +162,12 @@
             </fieldset>
             <button type="submit" class="form__button">Book a table</button>
             <label class="form__label form__checkbox" for="checkbox">
-              <input class="form__checkbox" id="checkbox" type="checkbox" />
+              <input
+                required
+                class="form__checkbox"
+                id="checkbox"
+                type="checkbox"
+              />
               I Agree with the terms of use
             </label>
           </form>
@@ -261,21 +265,19 @@
           <div class="about__content">
             <p class="about__paragraph">
               Our coffee shop is located in the Triple Peaks Library.It features
-              6<br />
-              tables and free WiFi.
+              6 tables and free WiFi.
             </p>
             <p class="about__paragraph">
               Our main mission is keeping guests cozy and energized.
             </p>
             <p class="about__paragraph">
-              Besides that, we try to reduce our environmental impact — so we<br />don't
-              sell single-use cups. But you can buy one of our reusable cups!
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
             </p>
           </div>
           <div class="about__circle"></div>
-          <div
-            class="about__circle aboout__circle about__circle_animation"
-          ></div>
+          <div class="about__circle about__circle_animation"></div>
         </section>
       </main>
       <footer class="footer">
@@ -286,8 +288,8 @@
             class="footer__logo"
           />
           <div class="footer__column">
-            <p class="footer__social-heading">Social media</p>
             <ul class="footer__list">
+              <p class="footer__social-heading">Social media</p>
               <li class="footer__list-item">
                 <a href="#" class="footer__social-link">
                   <img
